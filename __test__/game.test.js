@@ -15,7 +15,8 @@ describe('Game', () => {
   let game, p1, p2
   beforeEach(() => {
     p1 = 'Salem'
-    p2 = 'Nate'
+    this.p2 = 'Bananas'
++    this.p2 = p2
     game = new Game(p1, p2)
   })
 
